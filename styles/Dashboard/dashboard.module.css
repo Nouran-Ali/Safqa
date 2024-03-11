@@ -1,0 +1,28 @@
+.container {
+    margin-top: 110px;
+}
+
+/* .z_index_behind{
+    z-index: 1;
+} */
+.balance {
+    background-image: linear-gradient(252deg, #66b4d2, #2f6782);
+    color: white !important;
+    width: 30%;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+}
+
+@media (max-width: 768px) {
+    .balance{
+        width: 50%;
+    }
+    .fixed{
+        position: relative !important;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .container {
+        margin-top: 0px;
+    }
+}

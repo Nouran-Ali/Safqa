@@ -1,0 +1,17 @@
+.bgFeatures {
+  height: 771px;
+  width: 75%;
+  margin-top: -608px;
+}
+.pointsFeatures {
+  position: absolute;
+  left: 56%;
+  top: 110%;
+}
+
+@media (max-width: 991.98px) {
+  .bgFeatures,
+  .pointsFeatures{
+    display: none;
+  }
+}

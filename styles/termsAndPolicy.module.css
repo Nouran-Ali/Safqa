@@ -1,0 +1,23 @@
+.TermsOfUse h2,
+.PrivacyPolicy h2 {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.TermsOfUse button,
+.PrivacyPolicy button {
+  font-weight: 500;
+  color: black !important;
+  border: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+.TermsOfUse button::after,
+.PrivacyPolicy button::after {
+  background-image: var(--bs-accordion-btn-icon) !important;
+}
+
+.TermsOfUse p,
+.PrivacyPolicy p {
+  color: #6c6e72;
+}

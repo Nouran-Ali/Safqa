@@ -1,0 +1,29 @@
+.header{
+    color: black;
+    background-color: #f5f5f5;
+}
+.header hr{
+    width: 75px;
+    height: 0;
+    margin: 2.3px 318.8px 0 0.3px;
+    border: solid 1px #66b4d2;
+    opacity: 1;
+}
+
+.hr_AR{
+    width: 75px;
+    height: 0;
+    margin: 0 !important;
+    border: solid 1px #66b4d2;
+    opacity: 1;
+}
+
+.header p{
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .header p{
+        width: 100%;
+    }
+}

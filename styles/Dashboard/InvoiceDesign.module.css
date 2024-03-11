@@ -1,0 +1,136 @@
+.InvoiceDesign {
+    color: black;
+}
+
+.InvoiceDesign hr {
+    border: solid 1px #000;
+    opacity: 1;
+}
+
+.dataInvoice p {
+    line-height: 1;
+}
+
+.data {
+    color: #afafaf;
+}
+
+.name {
+    color: #66b4d2;
+}
+
+.sectionRight h2 {
+    color: #00a7b3;
+}
+
+.sectionRight .title hr {
+    border: solid 2px #00a7b3;
+    opacity: 1;
+    width: 40px;
+}
+
+.buttons select,
+.buttons button {
+    background-color: #474747;
+    color: white;
+}
+
+.sectionRight hr {
+    border: solid 1px #f3f3f3;
+    opacity: 1;
+    width: 39%;
+    display: inline-block;
+}
+
+.icon {
+    background-color: #f5f5f5;
+    border: 0;
+}
+
+.cardDetails input {
+    background-color: #f5f5f5 !important;
+}
+
+.Pay {
+    background-color: #00a7b3;
+    color: white !important;
+    padding: 10px 406px;
+}
+
+.terms span {
+    color: #a8a8a8;
+}
+
+.table thead {
+    background-color: #f5f5f5;
+    color: #949494;
+    border-radius: 10%;
+}
+
+.table thead th {
+    text-align: center;
+    color: #a8a8a8;
+    line-height: 40px;
+    border-bottom: 1px solid #DDD !important;
+}
+
+.table td {
+    line-height: 40px;
+    border: none !important;
+    color: #6a6a6a !important;
+    font-weight: bold;
+}
+
+.yourData input {
+    background-color: #f9f9f9;
+}
+
+.optional {
+    color: #bdc1c8;
+}
+
+.w_42{
+    width: 42.8% !important;
+}
+
+@media (max-width: 768px) {
+    .Pay {
+        padding: 10px 105px;
+    }
+    .width_29{
+        width: 29%;
+    }
+    .width_66{
+        width: 66%;
+    }
+    .sectionRight{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .sectionRight h2 {
+        font-size: 18px;
+        margin-top: 23px !important;
+        margin-right: 10px;
+    }
+
+    .sectionRight hr {
+        width: 12%;
+    }
+    
+    .sectionRight .title hr {
+        border: solid 1px #00a7b3;
+        opacity: 1;
+        width: 25px;
+        margin: 6px 0;
+    }
+    .selectinp{
+        margin-right: 10px !important;
+    }
+    .btnAR{
+        padding: 5px 9px !important;
+    }
+    .table{
+        width: 450px;
+    }
+    
+}

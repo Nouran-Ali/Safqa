@@ -1,0 +1,21 @@
+.nav hr {
+  width: 85%;
+  border: solid 1px #c9c9c9;
+  margin-top: -9px;
+  opacity: 1;
+}
+
+.btn {
+  color: #a8a8a8 !important;
+}
+
+.active {
+  color: #66b4d2 !important;
+  border-bottom: 2px solid #66b4d2;
+}
+
+@media (max-width: 768px) {
+  .btn_webhook {
+    padding: 8px 38px !important;
+  }
+}

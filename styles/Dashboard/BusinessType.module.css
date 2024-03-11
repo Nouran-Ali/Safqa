@@ -1,0 +1,223 @@
+.info {
+  /* background-color: #f4f8fa; */
+  /* margin-right: 26px; */
+  padding: 15px 0px;
+  /* border: 2px solid #eee; */
+  box-shadow: 0 1px 5px 0 rgba(122, 122, 122, 0.27);
+}
+
+.info_dark {
+  background-color: #193443 !important;
+  color: #fff !important;
+  margin-right: 26px;
+  padding: 15px 0px;
+}
+
+.info p,
+.info_dark p {
+  color: #66b4d2;
+}
+
+.info hr {
+  margin: 0;
+  opacity: 1;
+}
+
+.info label {
+  color: #6a6a6a;
+  font-weight: 500;
+}
+
+.info label span {
+  color: #afafaf;
+}
+
+.info textarea,
+.info select,
+.codeCountry .btncode {
+  /* color: #c3c3c3; */
+  background: transparent;
+  background-color: white !important;
+}
+
+.info input .ant-select-selection-placeholder {
+  background: transparent !important;
+}
+
+.CheckInput:checked {
+  border-color: #66b4d2 !important;
+  background-color: #66b4d2 !important;
+}
+
+.btnFile {
+  background-color: #00a7b3;
+  color: white !important;
+}
+
+.btnFile:hover {
+  color: #00a7b3 !important;
+  border: 1px solid #00a7b3;
+}
+
+.inpfile::-webkit-file-upload-button {
+  display: none;
+}
+
+.inpfile::file-selector-button {
+  display: none;
+}
+
+.blue input {
+  background-color: #e0f1f2 !important;
+  color: #00a7b3 !important;
+}
+
+.blue label {
+  color: #00a7b3;
+}
+
+.BusinessDetails a {
+  color: #6a6a6a;
+}
+
+.btnImg {
+  right: 25%;
+  bottom: -8px;
+}
+
+.btncode {
+  border-right: 1px solid #ced4da !important;
+  border: 0px;
+}
+
+.Create {
+  background-color: #00a7b3;
+  color: white !important;
+  padding: 10px 100px;
+}
+
+.CreateAll {
+  background-color: #00a7b3;
+  color: white !important;
+  padding: 10px 100px;
+}
+
+.radio input:checked {
+  border-color: #66b4d2 !important;
+  background-color: #66b4d2 !important;
+}
+
+.btn {
+  background-color: #00a7b3 !important;
+  color: white !important;
+}
+
+.btn:hover {
+  background-color: #fff !important;
+  color: #00a7b3 !important;
+  border: 1px solid #00a7b3;
+}
+
+.note {
+  background-color: #fdf6f6;
+}
+
+.btncreate {
+  background-color: #00a7b3;
+  color: white;
+}
+
+.btncreate:hover {
+  color: #00a7b3;
+  border: 1px solid #00a7b3;
+}
+
+.quantity button {
+  background-color: white;
+}
+
+.total input {
+  background-color: #e0f1f2 !important;
+  color: #00a7b3 !important;
+}
+
+.total label {
+  color: #00a7b3;
+}
+
+.delete {
+  color: #e47e7b !important;
+}
+
+.CreateNewAdresse {
+  width: 80%;
+}
+
+.CreateNewAdresseAR {
+  width: 97%;
+}
+
+.CreateNewAdresse input,
+.CreateNewAdresse select {
+  background-color: #f9f9f9 !important;
+}
+
+.CreateNewAdresse a {
+  color: #6a6a6a;
+}
+
+.w_16 {
+  width: 16%;
+}
+
+.w_25 {
+  width: 25%;
+}
+
+.hr {
+  border: 1px solid #66b4d2;
+}
+
+@media (max-width: 768px) {
+  .no_marginLeft {
+    margin-left: 0 !important;
+  }
+
+  .info {
+    margin-right: 0px;
+  }
+
+  .info hr {
+    margin: 0;
+    opacity: 1;
+  }
+
+  .CreateNewAdresse {
+    width: 100%;
+  }
+
+  .note {
+    margin-right: 0 !important;
+  }
+
+  .btn_download {
+    display: flex;
+    justify-content: center;
+  }
+
+  .w_90 {
+    width: 90%;
+  }
+
+  .w_50 {
+    width: 50%;
+  }
+
+  .row_width {
+    width: 900px;
+  }
+
+  .labels_width {
+    width: 714px;
+  }
+}

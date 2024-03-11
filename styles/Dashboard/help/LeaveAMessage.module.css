@@ -1,0 +1,38 @@
+.info h5 {
+  color: #66b4d2;
+}
+
+.info hr {
+  border: 1px solid #66b4d20f;
+  opacity: 1;
+}
+.info label {
+  color: #6a6a6a;
+  font-weight: 500;
+}
+.info span {
+  color: #afafaf;
+}
+.info input,
+.info select,
+.codeCountry .btncode,
+.info textarea {
+  color: #c3c3c3;
+  background-color: #f9f9f9 !important;
+}
+
+.submit {
+  background-color: #2f6782;
+  color: white !important;
+  padding: 10px 100px;
+}
+
+.width{
+  width: 75%;
+}
+
+@media (max-width: 768px) {
+  .width{
+    width: 100%;
+  }
+}

@@ -1,0 +1,92 @@
+.create {
+  background-color: #2f6782 !important;
+  color: white !important;
+}
+.info select,
+.info button {
+  background-color: #f9f9f9;
+  color: #2f6782;
+}
+.table {
+  background-color: #f9f9f9;
+  color: #949494;
+}
+.table tbody {
+  border-top: 1px solid #ddd;
+}
+.table thead th {
+  text-align: center;
+  color: #2f6782;
+  line-height: 40px;
+  border-bottom: 1px solid #ddd !important;
+}
+.table td {
+  line-height: 40px;
+  border: none !important;
+}
+.checkbox[type="checkbox"]:checked {
+  background-color: #66b4d2;
+  border-color: #66b4d2;
+}
+.arrows {
+  color: #949494;
+  font-size: 24px;
+}
+.arrows button {
+  color: #949494 !important;
+  background-color: white !important;
+}
+.arrows span {
+  color: #2f6782;
+  font-size: 16px;
+}
+
+.GreenColor {
+  color: #58d241;
+}
+.RedColor {
+  color: #e47e7b;
+}
+
+.GrayColor {
+  color: #949494;
+}
+
+.bgBlue {
+  background-color: #2f6782 !important;
+  color: white !important;
+}
+
+.bgLactic {
+  background-color: #00a7b3 !important;
+  color: white !important;
+}
+
+.copy {
+  background-color: #2f6782 !important;
+  color: white !important;
+}
+.copyLinkMyStore {
+  background-color: #66b4d2 !important;
+  color: white !important;
+}
+.link {
+  color: #66b4d2;
+}
+
+
+@media (max-width: 768px) {
+  .marginTopInResponsive{
+    margin-top: 15px;
+  }
+  .copyLinkMyStore{
+    margin: 15px;
+    float: right;
+  }
+  .table {
+    table-layout: fixed;
+  }
+  .table th{
+    width: 170px;
+  }
+}

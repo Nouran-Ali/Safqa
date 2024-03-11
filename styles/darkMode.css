@@ -1,0 +1,266 @@
+:root {
+  --ant-notification-bg-color: #1c3948;
+  --ant-notification-color: #c1c1c1;
+  --ant-notification-message-color: #fff;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.ant-notification-notice {
+  background-color: #1c3948 !important;
+  color: #c1c1c1 !important;
+}
+.ant-notification-notice .ant-notification-notice-message,
+.ant-notification-notice .ant-notification-notice-close {
+  color: #fff !important;
+}
+
+.dark-title {
+  color: #66b4d2 !important;
+}
+
+.bg-dark {
+  background-color: #162d39 !important;
+}
+
+.dark-input {
+  background-color: #1c3948 !important;
+  color: #a8a8a8 !important;
+}
+
+.dark-blue {
+  color: #2f6782 !important;
+}
+
+.dark-blue-box {
+  background-color: #1c3948 !important;
+}
+.dark-blue-box .active {
+  background-color: #2f6782 !important;
+  color: #fff !important;
+}
+
+.dark-box {
+  background-color: #193443 !important;
+  color: #c1c1c1 !important;
+}
+
+.dark-text-info-dashboard {
+  color: #2f6782 !important;
+}
+
+.btn-dark-box {
+  background-color: #193443 !important;
+  color: #2f6782 !important;
+}
+
+.delete-modal .ant-modal-body {
+  padding: 14px 25px 7px 25px !important;
+}
+.delete-modal .ant-btn-primary {
+  background-color: #e47e7b !important;
+  border-color: #e47e7b !important;
+}
+
+.dark-delete-modal .ant-modal-header,
+.dark-delete-modal .ant-modal-body,
+.dark-delete-modal .ant-modal-footer {
+  background-color: #1c3948 !important;
+  color: #c1c1c1 !important;
+}
+.dark-delete-modal .ant-modal-title {
+  color: #fff;
+}
+.dark-delete-modal .ant-modal-body {
+  padding: 14px 25px 7px 25px !important;
+}
+.dark-delete-modal .ant-btn-primary {
+  background-color: #e47e7b !important;
+  border-color: #e47e7b !important;
+}
+.dark-delete-modal .ant-modal-close {
+  color: #fff !important;
+}
+
+.refund-modal .ant-modal-body {
+  padding: 14px 25px 7px 25px !important;
+}
+.refund-modal .ant-btn-primary {
+  background-color: #66b4d2 !important;
+  border-color: #66b4d2 !important;
+}
+
+.dark-refund-modal .ant-modal-header,
+.dark-refund-modal .ant-modal-body,
+.dark-refund-modal .ant-modal-footer {
+  background-color: #66b4d2 !important;
+  color: #c1c1c1 !important;
+}
+.dark-refund-modal .ant-modal-title {
+  color: #fff;
+}
+.dark-refund-modal .ant-modal-body {
+  padding: 14px 25px 7px 25px !important;
+}
+.dark-refund-modal .ant-btn-primary {
+  background-color: #66b4d2 !important;
+  border-color: #66b4d2 !important;
+}
+.dark-refund-modal .ant-modal-close {
+  color: #fff !important;
+}
+
+.dark-ant-modal .ant-modal-header,
+.dark-ant-modal .ant-modal-body,
+.dark-ant-modal .ant-modal-footer {
+  background-color: #1c3948 !important;
+  color: #c1c1c1 !important;
+}
+.dark-ant-modal .ant-modal-title {
+  color: #fff;
+}
+
+#dark {
+  min-height: 100vh;
+  /* payment_method_dark  */
+}
+#dark label {
+  color: #fff;
+}
+#dark .custom-tooltip label {
+  color: #000;
+}
+#dark .modal-content {
+  background-color: #1c3948 !important;
+  color: #c1c1c1 !important;
+}
+#dark .dark-dropdown-menu {
+  background-color: #1c3948 !important;
+  color: #c1c1c1 !important;
+}
+#dark .dark-dropdown-menu .dark-dropdown-item {
+  color: #fff !important;
+}
+#dark .dark-dropdown-menu .dark-dropdown-item:hover {
+  background-color: #c1c1c1 !important;
+  color: #1c3948 !important;
+}
+#dark .profile-dropdown-menu {
+  background-color: #1c3948 !important;
+}
+#dark .profile-dropdown-menu a:hover {
+  background-color: #c1c1c1 !important;
+  color: #1c3948 !important;
+}
+#dark .profile-dropdown-menu a:hover svg {
+  color: #1c3948 !important;
+}
+#dark .profile-dropdown-menu a {
+  color: #fff !important;
+}
+#dark .profile-dropdown-menu svg {
+  color: #c1c1c1 !important;
+}
+#dark .notifications-dropdown-menu {
+  background-color: #1c3948 !important;
+}
+#dark .notifications-dropdown-menu .dropdown-item:hover {
+  background-color: #c1c1c1 !important;
+}
+#dark .notifications-dropdown-menu .dropdown-item:hover .title {
+  color: #000 !important;
+}
+#dark .notifications-dropdown-menu .dropdown-item:hover .time {
+  color: #1c3948 !important;
+}
+#dark .notifications-dropdown-menu .title {
+  color: #fff;
+}
+#dark .notifications-dropdown-menu .time {
+  color: #a8a8a8;
+}
+#dark .payment_method_dark .ant-collapse {
+  background-color: #193443;
+}
+#dark .payment_method_dark .ant-collapse-header-text {
+  color: #fff;
+}
+#dark .payment_method_dark .ant-collapse-content {
+  background-color: #193443;
+  color: #a8a8a8 !important;
+}
+#dark .payment_method_dark .ant-space-item {
+  color: #6a6a6a !important;
+  border-bottom: 1px solid #bdc2c8 !important;
+}
+#dark .payment_method_dark .ant-collapse-expand-icon {
+  color: #fff;
+}
+#dark .payment_method_dark select {
+  background-color: #183341;
+  color: inherit;
+}
+#dark .payment_method_dark label {
+  color: inherit;
+}
+#dark input,
+#dark select,
+#dark textarea,
+#dark .ant-select-selector,
+#dark .input-group,
+#dark .input-group-text {
+  background-color: #1c3948 !important;
+  color: #a8a8a8 !important;
+}
+#dark input[type=checkbox] {
+  border: 1px solid #fff !important;
+}
+#dark .text-grey {
+  color: #a8a8a8 !important;
+}
+#dark .ant-empty-description {
+  color: #c1c1c1 !important;
+}
+#dark .ant-table,
+#dark .ant-table-thead,
+#dark .ant-table-tbody,
+#dark .ant-table-row,
+#dark .ant-table-cell,
+#dark .ant-table-cell-row-hover {
+  background-color: #193443 !important;
+}
+#dark tr th {
+  color: #2f6782 !important;
+  border-color: #2f6782 !important;
+}
+#dark tr td {
+  color: #c1c1c1 !important;
+  border: 0px;
+}
+#dark .ant-pagination-item,
+#dark .ant-pagination-item-link {
+  background-color: #193443 !important;
+  color: #2f6782 !important;
+  border: 0px;
+}
+#dark .ant-pagination-item-active {
+  background-color: #193443 !important;
+  color: #fff !important;
+  font-weight: bold !important;
+  border: 0px;
+}
+#dark .ant-dropdown,
+#dark .ant-table-filter-dropdown {
+  background-color: #193443 !important;
+}
+#dark .ant-dropdown input,
+#dark .ant-dropdown select,
+#dark .ant-dropdown textarea,
+#dark .ant-table-filter-dropdown input,
+#dark .ant-table-filter-dropdown select,
+#dark .ant-table-filter-dropdown textarea {
+  background-color: #1c3948 !important;
+  color: #a8a8a8 !important;
+}/*# sourceMappingURL=darkMode.css.map */

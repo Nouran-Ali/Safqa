@@ -1,0 +1,152 @@
+.info h5,
+.info_dark h5,
+.colorBlue {
+  color: #66b4d2;
+}
+
+.info_dark p {
+  color: #a8a8a8 !important;
+}
+
+.info_dark .data {
+  color: #fff !important;
+}
+
+.info select {
+  background-color: #f9f9f9;
+  color: #66b4d2;
+}
+
+.info span {
+  color: #afafaf;
+}
+
+.info hr {
+  border: 1px solid #66b4d20f;
+  opacity: 1;
+}
+
+.data {
+  color: #afafaf;
+}
+
+.data {
+  color: #afafaf;
+}
+
+.data a {
+  color: #66b4d2;
+}
+
+.ColorBlue {
+  color: #00a7b3 !important;
+}
+
+.bgBlue {
+  background-color: #2f6782 !important;
+  color: white !important;
+}
+
+.bgLactic {
+  background-color: #00a7b3 !important;
+  color: white !important;
+}
+
+.icon {
+  background-color: #f8f8f8;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: #66b4d2;
+  margin-right: 20px;
+}
+
+.iconAR {
+  background-color: #f8f8f8;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: #66b4d2;
+  margin-left: 20px;
+}
+
+.title {
+  color: black;
+}
+
+.description {
+  color: #949494;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.save {
+  background-color: #66b4d2;
+  color: white !important;
+  padding: 10px 130px;
+}
+
+.info .accordionbutton {
+  color: black !important;
+  background-color: #f9f9f9;
+}
+
+.info .accordionitem {
+  background-color: #f9f9f9 !important;
+}
+
+.switcher {
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  align-items: center;
+  color: #6a6a6a;
+}
+
+.accordionbody {
+  color: #6a6a6a;
+}
+
+.disable {
+  color: #e47e7b;
+}
+
+.CreateAll {
+  background-image: linear-gradient(to right, #66b4d2, #335a69);
+  color: white !important;
+  padding: 10px 100px;
+}
+
+.tableInvoice {
+  background-color: #f9f9f9;
+  line-height: 2.5;
+}
+
+.titleTable {
+  color: #2f6782;
+}
+
+@media (max-width: 768px) {
+  .switcher {
+    top: 60%;
+    left: 47px;
+  }
+
+  .disable {
+    top: 60%;
+    left: 32px;
+    position: absolute;
+  }
+
+  .btn_name {
+    margin-bottom: 27px;
+  }
+  .tableInvoice {
+    table-layout: fixed;
+  }
+  .tableInvoice th {
+    width: 110px;
+  }
+}

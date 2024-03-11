@@ -1,0 +1,19 @@
+.ourApp {
+  margin-top: 230px;
+}
+
+@media (max-width: 991.98px) {
+  .ourApp{
+    margin-top: 50px;
+  }
+  .img_app{
+    display: none;
+  }
+}
+
+@media (min-width: 1600px) {
+  .ourApp {
+    margin-top: 200px;
+  }
+}
+

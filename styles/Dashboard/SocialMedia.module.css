@@ -1,0 +1,30 @@
+.SocialMedia input,
+.SocialMedia select {
+    background-color: #f9f9f9 !important;
+}
+
+.SocialMedia label {
+    color: #6a6a6a;
+}
+
+.remove {
+    background-color: #fdf2f1 !important;
+    color: #e47e7b !important;
+}
+
+.create {
+    background-color: #2f6782 !important;
+    color: white !important;
+}
+
+.MagicBtnIcon {
+    background-color: #2f6782 !important;
+    color: white !important;
+}
+
+@media (max-width: 768px) {
+    .border_small_screen {
+        border: 1px solid #ddd;
+        padding: 20px;
+    }
+}

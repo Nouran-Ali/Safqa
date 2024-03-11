@@ -1,0 +1,23 @@
+.smallNavbar{
+    background-color: #2f6782;
+    /* padding: 16px 84.5px 0px 244px; */
+}
+
+.smallNavbarAR{
+    background-color: #2f6782;
+    /* padding: 16px 84.5px 0px 244px; */
+}
+
+
+.contact{
+    margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+    .contact{
+        margin-right: 5px;
+    }
+    .smallNavbar{
+        padding: 9px 0px 0px 0px;
+    }
+}

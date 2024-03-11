@@ -1,0 +1,96 @@
+import styles from "../../../styles/Dashboard/Create.module.css";
+import {
+    SafqaCheckBox,
+    SafqaNewCheckBox,
+    SafqaRadioInput,
+} from "../Inputs";
+import { useTranslation } from "react-i18next";
+import { useTheme } from "next-themes";
+
+
+const NotificationSetting = ({ errors, api_errors, register, watch }) => {
+    const { theme } = useTheme();
+    const [t, i18n] = useTranslation();
+    const { language } = i18n;
+
+    const notificationList = [
+        {
+            label: t("dashboard.notification_create_invoice"),
+            name: "notification_create_invoice"
+        },
+        {
+            label: t("dashboard.notification_invoice_paid"),
+            name: "notification_invoice_paid"
+        },
+        {
+            label: t("dashboard.notification_new_order"),
+            name: "notification_new_order"
+        },
+        {
+            label: t("dashboard.notification_create_batch_invoice"),
+            name: "notification_create_batch_invoice"
+        },
+        {
+            label: t("dashboard.notification_deposit"),
+            name: "notification_deposit"
+        },
+        {
+            label: t("dashboard.notification_create_recurring_invoice"),
+            name: "notification_create_recurring_invoice"
+        },
+        {
+            label: t("dashboard.notification_refund_transfered"),
+            name: "notification_refund_transfered"
+        },
+        // {
+        //     label: t("dashboard.notification_notifications_service_request"),
+        //     name: "notification_notifications_service_request"
+        // },
+        {
+            label: t("dashboard.notification_notifications_hourly_deposit_rejected"),
+            name: "notification_notifications_hourly_deposit_rejected"
+        },
+        {
+            label: t("dashboard.notification_approve_vendor_account"),
+            name: "notification_approve_vendor_account"
+        },
+        {
+            label: t("dashboard.notification_create_shipping_invoice"),
+            name: "notification_create_shipping_invoice"
+        },
+    ]
+
+    return (
+        <div className={`mt-2 mb-4`}>
+            <div className={`rounded-2 ${theme == 'dark' ? styles.info_dark : styles.info}`} dir={language == "ar" ? "rtl" : "ltr"}>
+                <p className="px-4 fs-5">{t("dashboard.notification_setting")}</p>
+                <hr />
+                {/* <div className="row  mt-2">
+                    <SafqaRadioInput
+                        // label={t("dashboard.is_user_enabled")}
+                        items={[
+                            { id: 0, name: t("dashboard.normal_user") },
+                            { id: 1, name: t("dashboard.super_master") },
+                            // { id: 2, name: t("dashboard.api") },
+                        ]}
+                        register={register}
+                        name="name"
+                        name_en="name"
+                        name_ar="name"
+                    />
+                </div> */}
+                <div className="ms-3 row">
+                    {
+                        notificationList.map(notify =>
+                            <div key={notify.name} className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-6 px-4 mt-3 text-wrap">
+                                <SafqaNewCheckBox register={register} name={notify.name} label={notify.label} />
+                            </div>
+                        )
+                    }
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default NotificationSetting;

@@ -1,0 +1,118 @@
+
+category → success message displayed twice
+-get all ♥
+-create ♥
+-update ♥
+-delete ♥
+-search ♥
+
+
+product 
+-get all ♥
+-get one ♥
+-create → Add this product in the store?(in_store) → add Currency?
+-update → delete image in update product while there was an image 
+-delete ♥
+-search ♥
+
+
+customer 
+-get all ♥
+-get one → get bank name
+-create ♥
+-update → The bank id must be an integer. 
+-delete ♥
+-search ♥
+
+
+invoice → add status and method to the invoice
+→ Are all invoices we get in one endpoint even the type is quick
+→ send_invoice_options 
+-get all ♥
+-get one ♥
+-create ♥
+-update ♥
+-delete ♥
+-search ♥
+
+
+manageUser 
+-get all ♥
+-get one → create show manageUser page 
+-create → this role for user is not found
+-update → this role for user is not found
+-search ♥
+
+
+address ♥
+-get all ♥
+-get one ♥
+-create ♥
+-update ♥
+-delete ♥
+
+
+city → unique in profile country level
+-get all → get all profile city
+-get one → waiting
+-create → get all address type → get all city → get all area
+-update → waiting
+-delete → waiting
+
+
+area → unique in city level
+-get all ♥
+-get one → waiting
+-create → get all address type → get all city → get all area
+-update → waiting
+-delete → waiting
+
+
+#########################
+##### visualization #####
+#########################
+
+######### Admin #########
+
+
+country
+get all → ♥
+create → ♥
+get one → ♥
+update → ♥
+delete ♥
+
+city
+get all → ♥
+create → ♥
+get one → ♥
+update → ♥
+delete ♥
+
+socialMedia
+get all → ♥
+create → ♥
+get one → ♥
+update → ♥
+delete ♥
+
+recurringInterval
+get all → ♥
+create → ♥
+get one → 404 not found
+update → 404 not found
+delete ♥
+
+area
+get all → ♥
+create → ♥
+get one → 404 not found
+update → 404 not found
+delete ♥
+
+addressType
+get all → ♥
+create → ♥
+get one → 404 not found
+update → 404 not found
+delete ♥

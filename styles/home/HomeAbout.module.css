@@ -1,0 +1,47 @@
+.about {
+  margin-top: 40px;
+  background-image: url("../../public/home/about/lines.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.about .secondary_p {
+  width: 60%;
+}
+
+.aboutContainer {
+  padding: 30px;
+}
+
+.about .btn {
+  width: 80px;
+  box-shadow: 8px 0px 0px -1px #768d9e6e;
+  border: none;
+}
+
+.about .btn_ar {
+  width: 80px;
+  box-shadow: 8px 0px 0px -1px #768d9e6e;
+  border: none;
+}
+
+.about .btn_shadow {
+  box-shadow: 12px 1px 0px 0px #bdc2c868;
+}
+
+@media (max-width: 991.98px) {
+  .about {
+    background-image: none;
+  }
+
+  .about h2 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .about p {
+    width: 100% !important;
+  }
+}

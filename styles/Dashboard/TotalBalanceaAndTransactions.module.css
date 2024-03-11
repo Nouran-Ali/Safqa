@@ -1,0 +1,34 @@
+@media (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
+  .balance {
+    width: 100% !important;
+  }
+}
+
+.balance {
+  background-image: linear-gradient(252deg, #66b4d2, #2f6782);
+  color: white;
+  width: 48%;
+}
+.Transactions {
+  background-image: linear-gradient(74deg, #66b4d2, #2f6782);
+}
+.buttons {
+  background-color: #f9f9f9;
+}
+.btn {
+  color: #afafaf !important;
+}
+.active {
+  background-color: white;
+  color: #1a3847 !important;
+  box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+}
+
+@media (max-width: 575.98px) {
+  .balance h2 {
+    font-size: 22px !important;
+  }
+}

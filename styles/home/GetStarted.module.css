@@ -1,0 +1,27 @@
+.getStarted {
+  margin-bottom: 50px;
+}
+
+.getStarted button {
+  font-size: 22px;
+}
+
+.img_getStarted {
+  max-width: 600px;
+}
+
+.margin_top{
+  margin-top: 135px;
+}
+
+@media (max-width: 991.98px) {
+  .img_getStarted{
+    display: none;
+  }
+  .getStarted {
+    margin-bottom: 0px;
+  }
+  .margin_top{
+    margin-top: 0px;
+  }
+}

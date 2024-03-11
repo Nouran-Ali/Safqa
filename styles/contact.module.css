@@ -1,0 +1,177 @@
+.contact {
+  position: absolute;
+  top: 80px;
+  margin: 0px auto;
+  /* height: 600px; */
+  width: 100%;
+  z-index: -2;
+}
+
+.main_container {
+  margin-top: 60px;
+  margin-bottom: 86px;
+}
+
+.flag_icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.flag_imgs {
+  width: 500px;
+  height: 350px;
+  position: relative;
+}
+
+.flag_imgs img.active {
+  transform: scale(1.5);
+}
+
+.body {
+  margin-top: 20px;
+}
+
+.QAT {
+  top: 20px;
+  left: 42%;
+}
+/* .ARE {
+  top: 55px;
+  left: 80px;
+} */
+
+.ARE {
+  top: 137px;
+  left: 50%;
+  width: 80px;
+}
+
+.BHR {
+  bottom: 55px;
+  left: 85px;
+}
+
+.OMN {
+  bottom: 20px;
+  left: 40%;
+}
+
+.JOR {
+  top: 100px;
+  left: 45%;
+}
+
+.KWT {
+  top: 139px;
+  left: 100px;
+}
+
+.SAU {
+  top: 30%;
+  right: 75px;
+}
+
+.EGY {
+  top: 200px;
+  right: 33%;
+}
+
+/* .flag_icons a {
+  color: #91959B;
+}
+
+.flag_icons a:hover {
+  color: #62798b;
+  background-color: #fff;
+} */
+
+.contact-icon {
+  font-size: 20px;
+}
+.info {
+  display: flex;
+  height: 350px;
+  flex-direction: row;
+}
+
+.body_location,
+.body_email,
+.body_phone {
+  width: 300.5px;
+  font-size: 22.5px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+}
+
+.body_location p,
+.body_email p,
+.body_phone p {
+  margin-left: 24px;
+}
+
+.body_location_AR p,
+.body_email_AR p,
+.body_phone_AR p {
+  margin-right: 24px;
+}
+
+.head {
+  margin-bottom: 20px;
+  font-size: 26.5px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+}
+
+@media (max-width: 767.98px){
+  /* .flag_imgs {
+    width: 100%;
+    height: 100px;
+    overflow: scroll;
+    position: relative;
+    display: flex;
+  } */
+  /* .flag_imgs img {
+    height: 70px;
+    cursor: pointer;
+    position: static;
+    margin: 5px 10px 5px 10px;
+    top: 0;
+    right: 0;
+  } */
+
+  /* .flag_icons {
+    flex-direction: row;
+    margin-top: 30px;
+  } */
+  /* .info {
+    flex-direction: column;
+  } */
+  .contact {
+    display: none;
+  }
+  .ARE {
+    left: 40%;
+  }
+  .lottieimg{
+    display: none;
+  }
+}
+
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+  .contact {
+    display: none;
+    margin: 15px auto;
+  }
+  .lottieimg{
+    display: none;
+  }
+  .ARE {
+    left: 25%;
+  }
+}

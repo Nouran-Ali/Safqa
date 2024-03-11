@@ -1,0 +1,153 @@
+.bg_join {
+  background-image: url("../../public/bg-login.png");
+  min-height: 480px;
+  /* max-height: 650px; */
+  width: 100%;
+  margin-top: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: relative;
+}
+
+@media (max-width: 1200px) {
+  .flag_one {
+    width: 140px;
+  }
+}
+@media (max-width: 992px) {
+  .bg_join {
+    display: flex;
+    justify-content: center;
+    background-color: #f7f7f7;
+    padding-inline: 10px;
+  }
+  .flag_one {
+    width: auto;
+  }
+}
+
+.form {
+  margin-left: 181px;
+  width: 500px;
+}
+
+.join form {
+  margin-left: 181px;
+  width: 500px;
+}
+
+.imageJoin {
+  margin-top: 110px;
+}
+
+/* CompanyInformation */
+.Data select {
+  color: #7a8289;
+}
+
+/* .btn_next {
+  color: white;
+  background-color: #5888a1;
+  background-image: linear-gradient(to right, #5888a1, #2d5571);
+} */
+
+.numberCountry_select,
+.numberCountry_select {
+  width: 175px;
+  margin-bottom: 15px;
+  border: none !important;
+  border-right: 1px solid #e8e8e8 !important;
+  border-radius: 0px;
+  box-shadow: none;
+  color: #76abc2 !important;
+  background-color: white !important;
+}
+
+.css-1okebmr-indicatorSeparator {
+  background-color: white;
+}
+
+.css-1s2u09g-control {
+  border: none;
+}
+
+/* Bussiness type*/
+.business_type p {
+  color: #91959b;
+}
+
+.business_type a {
+  cursor: pointer;
+}
+
+/* sendOPt */
+.btn_sendOPt {
+  background-color: #76abc2 !important;
+  width: 100%;
+}
+
+.form_check label {
+  color: #91959b;
+}
+
+.form_check label a {
+  color: #76abc2;
+}
+
+.btnResend {
+  background-color: #e8e8e8;
+  color: #bbbbbb !important;
+}
+
+.btn_send {
+  background-color: #2d5571;
+  color: white;
+}
+
+.SendOPT p span {
+  color: #76abc2;
+}
+
+@media (max-width: 500px) {
+  .business_type {
+    width: 330px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .imageJoin,
+  .weDoImage {
+    display: none;
+  }
+
+  .bg_join {
+    background-image: none;
+  }
+  .form {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    width: 330px;
+  }
+
+  .stepper {
+    margin-bottom: 0px !important;
+    margin-left: auto;
+    margin-right: auto !important;
+  }
+  /* 
+  .business_type {
+    background-color: #f7f7f7 !important;
+    margin-bottom: 30px;
+    height: 180px;
+  } */
+
+  .form input,
+  .form select {
+    border: 1px solid #ced4da !important;
+  }
+  .join form {
+    margin-left: 0px;
+  }
+}

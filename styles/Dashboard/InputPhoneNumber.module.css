@@ -1,0 +1,9 @@
+.codeCountry .btncode{
+    color: #c3c3c3;
+    background-color: white !important;
+}
+
+.btncode{
+    border-right: 1px solid #ced4da !important;
+    border: 0px;
+}

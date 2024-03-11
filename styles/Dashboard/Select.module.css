@@ -1,0 +1,7 @@
+.select label{
+    color: black;
+    font-weight: 500;
+}
+.select select{
+    color: #c3c3c3;
+}

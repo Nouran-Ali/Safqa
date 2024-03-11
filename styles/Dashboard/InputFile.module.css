@@ -1,0 +1,23 @@
+.inpfile{
+    color: #c3c3c3;
+    background-color: #f9f9f9 !important;
+}
+.inp label{
+    color: #6a6a6a;
+    font-weight: 500;
+}
+.btnFile{
+    background-color: #66b4d2;
+    color: white;
+}
+.btnFile:hover{
+    color: #66b4d2;
+    border: 1px solid #66b4d2;
+}
+
+.inpfile::-webkit-file-upload-button{   
+	display: none;
+}
+.inpfile::file-selector-button {      
+    display: none;
+}

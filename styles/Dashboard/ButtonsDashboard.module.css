@@ -1,0 +1,30 @@
+.mainbuttons a{
+    /* border: 1px solid #f9f9f9 !important; */
+    box-shadow: 0 1px 5px 0 rgba(122, 122, 122, 0.27);
+    padding: 13px 50px;
+}
+
+/* .mainbuttonsInActive a{
+    border: 1px solid #f9f9f9 !important;
+    box-shadow: 0 1px 5px 0 rgba(122, 122, 122, 0.27);
+    padding: 17px 85px;
+} */
+
+@media (max-width: 767.98px) {
+    .mainbuttons a{
+        padding: 10px;
+        font-size: 13px;
+    }
+}
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+    .mainbuttons a{
+        padding: 17px 45px;
+        font-size: 16px;
+    }
+}
+@media (min-width: 991.98px) and (max-width: 1399.98px) {
+    .mainbuttons a{
+        padding: 17px 45px;
+        font-size: 16px;
+    }
+}

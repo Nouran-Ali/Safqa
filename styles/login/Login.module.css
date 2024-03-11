@@ -1,0 +1,90 @@
+.bg_login {
+  background-image: url("../../public/bg-login.png");
+  height: 467px;
+  width: 100%;
+  margin-top: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: relative;
+}
+
+.login form {
+  width: 300px;
+  top: 30%;
+  left: 60%;
+  position: absolute;
+}
+
+.wrapper {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+}
+
+.wrapper input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 1em;
+  box-sizing: border-box;
+  padding-bottom: 5px;
+}
+
+.wrapper input:focus + .underline {
+  width: 100%;
+}
+
+.underline {
+  position: absolute;
+  bottom: 0;
+
+  left: 50%;
+  transform: translateX(-50%);
+
+  height: 2px;
+  width: 0;
+  transition: 0.5s;
+}
+
+.login .form_check label {
+  color: #afafaf;
+}
+
+.login .btn_login {
+  color: white;
+  width: 86px;
+}
+
+.input_container {
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #afafaf;
+}
+
+.input_field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+@media (max-width: 991.98px) {
+  .imageLogin,
+  .bg_login{
+    display: none;
+  }
+
+  .login {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .login form {
+    width: 300px;
+    left: 30%;
+    position: inherit;
+  }
+}

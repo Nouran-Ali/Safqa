@@ -1,0 +1,108 @@
+.services {
+  margin-top: 40px;
+  margin-bottom: 130px;
+}
+
+.header {
+  font-family: sans-serif Tajawal;
+  font-weight: bold;
+  font-size: 23px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.48;
+  letter-spacing: normal;
+}
+.paragraph {
+  font-size: 17.5px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+}
+
+.toolbar{
+  display: none !important;
+}
+
+.serviceCard {
+  position: relative;
+  width: 380px;
+  .number {
+    position: absolute;
+    top: -110px;
+    right: 10px;
+    opacity: 0.3;
+    font-family: Tajawal;
+    font-size: 214.5px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.48;
+    letter-spacing: normal;
+    text-align: left;
+    color: #e8e8e8;
+  }
+  .iconContainer {
+    width: 55px;
+    height: 55px;
+    margin-top: 130px;
+    margin-bottom: 20px;
+    padding: 10.5px;
+    border-radius: 8.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .icon {
+      font-size: 34px;
+    }
+  }
+  .header {
+    line-height: 25px;
+    font-family: Tajawal;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .body {
+    font-family: Tajawal;
+    font-size: 17.5px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+  }
+}
+
+.POS,
+.GCC {
+  margin-top: 170px;
+}
+
+@media (max-width: 576.98px) {
+  .POS,
+  .GCC {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 767.98px){
+  .services{
+    margin-top: 10px;
+  }
+  .animationSevices{
+    display: none;
+  }
+  .servicesImages{
+    display: none;
+  }
+}
+
+@media (max-width: 991.98px){
+  .serviceCard{
+    width: 100%;
+  }
+  .lineLeftServices, 
+  .lineRightServices{
+    display: none;
+  }
+}

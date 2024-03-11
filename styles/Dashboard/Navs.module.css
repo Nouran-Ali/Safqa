@@ -1,0 +1,32 @@
+.buttons {
+  background-color: #f9f9f9;
+  display: inline-block;
+}
+.btn {
+  color: #a8a8a8 !important;
+  padding: 7px 50px;
+}
+.active {
+  background-image: linear-gradient(to left, #66b4d2, #5ba0bb, #335a69);
+  color: white !important;
+  box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+}
+
+.buttons_dark {
+  background-color: #1c3948 !important;
+  display: inline-block;
+}
+
+@media (max-width: 767.98px) {
+  .buttons,
+  .buttons_dark {
+    display: inline-flex;
+    align-items: center;
+  }
+  .btn {
+    /* padding: 7px 20px; */
+    /* width: 130px; */
+    padding: 9px;
+    text-align: center;
+  }
+}

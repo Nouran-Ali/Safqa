@@ -1,0 +1,38 @@
+.identity_documentation hr {
+  width: 120px;
+  border: 1px solid #7abed8;
+  opacity: 1;
+}
+
+.identity_documentation .ant-collapse-header {
+  border-bottom: 2px solid #d6d6d6;
+  font-weight: bold;
+}
+
+.identity_documentation {
+  .ant-collapse-expand-icon {
+    display: none;
+  }
+
+  .ant-collapse-header[aria-expanded='false']::after {
+    content: url('/docs/v1/down-arrow2.svg');
+    margin: auto;
+    position: absolute;
+    top: 10px;
+    right: 5%;
+  }
+
+  .ant-collapse-header[aria-expanded='true']::after {
+    content: url('/docs/v1/up-arrow2.svg');
+    margin: auto;
+    position: absolute;
+    top: 10px;
+    right: 5%;
+  }
+}
+
+.Account_approval {
+  border-bottom: 2px solid #d6d6d6;
+  margin-bottom: 30px;
+  width: 75%;
+}

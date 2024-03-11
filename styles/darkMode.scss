@@ -1,0 +1,312 @@
+// $darkTheme : [data-theme=='dark']
+
+:root {
+  // --ant-notification-bg-color: #fff;
+  // --ant-notification-color: #000;
+  // --ant-notification-message-color: #000;
+
+  --ant-notification-bg-color: #1c3948;
+  --ant-notification-color: #c1c1c1;
+  --ant-notification-message-color: #fff;
+}
+
+body {
+  min-height: 100vh;
+  // background-color: #162d39 !important;
+  // background-image: url(/bg-dark.png);
+}
+
+.ant-notification-notice {
+  background-color: #1c3948 !important;
+  color: #c1c1c1 !important;
+  .ant-notification-notice-message,
+  .ant-notification-notice-close {
+    color: #fff !important;
+  }
+}
+
+.dark-title {
+  color: #66b4d2 !important;
+}
+
+.bg-dark {
+  background-color: #162d39 !important;
+}
+
+.dark-input {
+  background-color: #1c3948 !important;
+  color: #a8a8a8 !important;
+}
+
+.dark-blue {
+  color: #2f6782 !important;
+}
+
+.dark-blue-box {
+  background-color: #1c3948 !important;
+  .active {
+    background-color: #2f6782 !important;
+    color: #fff !important;
+  }
+}
+
+.dark-box {
+  background-color: #193443 !important;
+  color: #c1c1c1 !important;
+}
+
+.dark-text-info-dashboard {
+  color: #2f6782 !important;
+}
+
+// btnTables
+.btn-dark-box {
+  background-color: #193443 !important;
+  color: #2f6782 !important;
+}
+
+.delete-modal {
+  .ant-modal-body {
+    padding: 14px 25px 7px 25px !important;
+  }
+  .ant-btn-primary {
+    background-color: #e47e7b !important;
+    border-color: #e47e7b !important;
+  }
+}
+
+.dark-delete-modal {
+  .ant-modal-header,
+  .ant-modal-body,
+  .ant-modal-footer {
+    background-color: #1c3948 !important;
+    color: #c1c1c1 !important;
+  }
+  .ant-modal-title {
+    color: #fff;
+  }
+  .ant-modal-body {
+    padding: 14px 25px 7px 25px !important;
+  }
+  .ant-btn-primary {
+    background-color: #e47e7b !important;
+    border-color: #e47e7b !important;
+  }
+  .ant-modal-close {
+    color: #fff !important;
+  }
+}
+
+.refund-modal {
+  .ant-modal-body {
+    padding: 14px 25px 7px 25px !important;
+  }
+  .ant-btn-primary {
+    background-color: #66b4d2 !important;
+    border-color: #66b4d2 !important;
+  }
+}
+
+.dark-refund-modal {
+  .ant-modal-header,
+  .ant-modal-body,
+  .ant-modal-footer {
+    background-color: #66b4d2 !important;
+    color: #c1c1c1 !important;
+  }
+  .ant-modal-title {
+    color: #fff;
+  }
+  .ant-modal-body {
+    padding: 14px 25px 7px 25px !important;
+  }
+  .ant-btn-primary {
+    background-color: #66b4d2 !important;
+    border-color: #66b4d2 !important;
+  }
+  .ant-modal-close {
+    color: #fff !important;
+  }
+}
+
+.dark-ant-modal {
+  .ant-modal-header,
+  .ant-modal-body,
+  .ant-modal-footer {
+    background-color: #1c3948 !important;
+    color: #c1c1c1 !important;
+  }
+  .ant-modal-title {
+    color: #fff;
+  }
+}
+
+#dark {
+  min-height: 100vh;
+  label {
+    color: #fff;
+  }
+
+  .custom-tooltip {
+    label {
+      color: #000;
+    }
+  }
+
+  // notify messages, delete messages
+  .modal-content {
+    background-color: #1c3948 !important;
+    color: #c1c1c1 !important;
+  }
+
+  .dark-dropdown-menu {
+    background-color: #1c3948 !important;
+    color: #c1c1c1 !important;
+
+    .dark-dropdown-item {
+      color: #fff !important;
+    }
+
+    .dark-dropdown-item:hover {
+      background-color: #c1c1c1 !important;
+      color: #1c3948 !important;
+    }
+  }
+
+  .profile-dropdown-menu {
+    background-color: #1c3948 !important;
+    a:hover {
+      svg {
+        color: #1c3948 !important;
+      }
+      background-color: #c1c1c1 !important;
+      color: #1c3948 !important;
+    }
+    a {
+      color: #fff !important;
+    }
+    svg {
+      color: #c1c1c1 !important;
+    }
+  }
+
+  .notifications-dropdown-menu {
+    background-color: #1c3948 !important;
+    .dropdown-item:hover {
+      background-color: #c1c1c1 !important;
+      .title {
+        color: #000 !important;
+      }
+      .time {
+        color: #1c3948 !important;
+      }
+    }
+    .title {
+      color: #fff;
+    }
+    .time {
+      color: #a8a8a8;
+    }
+  }
+
+  /* payment_method_dark  */
+  .payment_method_dark {
+    .ant-collapse {
+      background-color: #193443;
+    }
+    .ant-collapse-header-text {
+      color: #fff;
+    }
+    .ant-collapse-content {
+      background-color: #193443;
+      color: #a8a8a8 !important;
+    }
+    .ant-space-item {
+      color: #6a6a6a !important;
+      border-bottom: 1px solid #bdc2c8 !important;
+    }
+    .ant-collapse-expand-icon {
+      color: #fff;
+    }
+    select {
+      background-color: #183341;
+      color: inherit;
+    }
+    label {
+      color: inherit;
+    }
+  }
+
+  input,
+  select,
+  textarea,
+  .ant-select-selector,
+  .input-group,
+  .input-group-text {
+    background-color: #1c3948 !important;
+    color: #a8a8a8 !important;
+    // border: 1px solid #2f6782;
+  }
+
+  input[type='checkbox'] {
+    border: 1px solid #fff !important;
+  }
+
+  // input[type="checkbox"]:checked {
+  //   color: #2f6782 !important;
+  // }
+
+  .text-grey {
+    color: #a8a8a8 !important;
+  }
+
+  // safqa table
+  .ant-empty-description {
+    color: #c1c1c1 !important;
+  }
+  .ant-table,
+  .ant-table-thead,
+  .ant-table-tbody,
+  .ant-table-row,
+  .ant-table-cell,
+  .ant-table-cell-row-hover {
+    background-color: #193443 !important;
+  }
+  tr {
+    th {
+      color: #2f6782 !important;
+
+      border-color: #2f6782 !important;
+    }
+    td {
+      color: #c1c1c1 !important;
+      border: 0px;
+    }
+  }
+
+  // items and arrows left and right
+  .ant-pagination-item,
+  .ant-pagination-item-link {
+    background-color: #193443 !important;
+    color: #2f6782 !important;
+    border: 0px;
+  }
+  .ant-pagination-item-active {
+    background-color: #193443 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    border: 0px;
+  }
+
+  // must be outside #dark element
+  .ant-dropdown,
+  .ant-table-filter-dropdown {
+    background-color: #193443 !important;
+    input,
+    select,
+    textarea {
+      background-color: #1c3948 !important;
+      color: #a8a8a8 !important;
+    }
+  }
+}

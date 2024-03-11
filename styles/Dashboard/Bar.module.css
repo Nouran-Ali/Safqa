@@ -1,0 +1,28 @@
+.main {
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+}
+.h-240 {
+  height: 240px !important;
+}
+.h-340 {
+  height: 340px;
+}
+.boxColor,
+.boxColor2 {
+  background-color: #66b4d2;
+  width: 15px;
+  height: 15px;
+}
+.boxColor2 {
+  background-color: #19319c;
+}
+
+@media (max-width: 575.98px) {
+  .hightSmallScreen{
+    height: 240px;
+  }
+}

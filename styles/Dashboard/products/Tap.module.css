@@ -1,0 +1,30 @@
+/* .link{
+    color: #a8a8a8 !important;
+    min-width: 100px;
+}
+.tap .active{
+    text-decoration: underline !important;
+    color: #6a6a6a !important;
+} */
+
+.link {
+    color: #a8a8a8 !important;
+    min-width: 150px;
+}
+
+.link_dark {
+    background-color: #162d39 !important;
+    color: #a8a8a8 !important;
+    min-width: 150px;
+}
+
+.tap .active {
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    background-color: #f5f5f5;
+    color: #6a6a6a !important;
+}
+
+.tap .active_dark {
+    background-color: #2f6782 !important;
+    color: #fff !important;
+}

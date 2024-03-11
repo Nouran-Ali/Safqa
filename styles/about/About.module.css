@@ -1,0 +1,19 @@
+.secondSection,
+.thirdSection {
+  margin-top: 100px;
+}
+
+@media (max-width: 991.98px) {
+  .thirdSection {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100% !important;
+  }
+  .secondSection {
+    margin-top: 30px;
+  }
+  .aboutPageImage,
+  .weDoImage{
+    display: none;
+  }
+}

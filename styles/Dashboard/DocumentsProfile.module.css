@@ -1,0 +1,74 @@
+.DocumentsProfile label {
+  color: #a8a8a8;
+  background-color: #dde0e3;
+  cursor: pointer;
+}
+
+.DocumentsProfile_dark label {
+  color: #a8a8a8;
+  background-color: #162d39;
+  cursor: pointer;
+}
+
+.inpfile {
+  color: #a8a8a8;
+}
+
+.inpfile_dark {
+    background-color: inherit;
+  color: #fff !important;
+}
+
+.inpfile::-webkit-file-upload-button,
+.inpfile_dark::-webkit-file-upload-button {
+  display: none;
+}
+.inpfile::file-selector-button,
+.inpfile_dark::file-selector-button {
+  display: none;
+}
+
+.plus {
+  background-color: #f9f9f9 !important;
+  width: 70px;
+  height: 70px;
+  border: 1px solid #ddd;
+  border-style: dashed;
+}
+
+.plus_dark {
+  background-color: #162d39 !important;
+  width: 70px;
+  height: 70px;
+  border: 1px solid #ddd;
+  border-style: dashed;
+}
+
+
+
+.fileDone {
+  color: #66b4d2;
+  font-size: 30px;
+}
+
+.fileLabel {
+  background-color: #f9f9f9 !important;
+  border-style: none;
+}
+
+.fileLabel_dark {
+  background-color: #183341 !important;
+  border-style: none;
+}
+
+@media (max-width: 768px) {
+  .plus,
+  .plus_dark {
+    width: 110px;
+    height: 70px;
+  }
+  .DocumentsProfile,
+  .DocumentsProfile_dark {
+    width: 100%;
+  }
+}

@@ -1,0 +1,64 @@
+.BusinessDetails input,
+.BusinessDetails select,
+.BusinessDetails textarea,
+.btncode {
+    background-color: #f9f9f9 !important;
+}
+
+.BusinessDetails a {
+    color: #6a6a6a;
+}
+
+.btnImg,
+.btnImg:hover,
+.btnImg:active {
+    right: -3px;
+    bottom: -15px;
+    background-color: rgba(0, 0, 0, 0.305);
+}
+
+.btnShowImg,
+.btnShowImg:hover,
+.btnShowImg:active {
+    right: 45px;
+    bottom: -15px;
+}
+
+.btncode {
+    border-right: 1px solid #ced4da !important;
+    border: 0px;
+}
+
+.inpgreen {
+    border: 1px solid#58d241;
+}
+
+.inpred {
+    border: 1px solid#d24141;
+}
+
+.icon {
+    background-color: #f9f9f9;
+    color: #58d241;
+    border: 0;
+}
+
+.codeCountry span {
+    color: #00a7b3;
+}
+
+.save {
+    background-color: #2f6782;
+    color: white !important;
+    padding: 10px 140px;
+}
+
+@media (max-width: 768px) {
+    .btnImg {
+        right: 25%;
+    }
+
+    .btnShowImg {
+        right: 50%;
+    }
+}

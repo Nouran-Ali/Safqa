@@ -1,0 +1,139 @@
+.openMenu {
+  width: 23.4% !important;
+}
+
+.offcanvas_dark {
+  background-color: #162d39 !important;
+  color: #fff !important;
+  border-color: #6e6e6e !important;
+}
+
+/* .closeMenu {
+    width: 7% !important;
+  } */
+
+.closeMenu {
+  width: 23.4% !important;
+}
+
+.hidelinks {
+  display: none;
+}
+
+.link {
+  padding: 9px;
+  /* border-left: 5px solid white; */
+}
+
+.link:hover {
+  /* background-image: linear-gradient(to right, #f0f4f6, #fdfdfd); */
+  border-left: 5px solid var(--primary-dashboard-color);
+  color: var(--primary-dashboard-color);
+}
+
+.linkAR {
+  padding: 9px;
+  border-right: 5px solid white;
+}
+
+.linkAR:hover {
+  /* background-image: linear-gradient(to right, #fdfdfd, #f0f4f6); */
+  border-right: 5px solid var(--primary-dashboard-color);
+  color: var(--primary-dashboard-color);
+}
+.MenuLinks div {
+  background-color: --bg-color !important;
+}
+
+.MenuLinks .link:hover a,
+.MenuLinks .linkAR:hover a {
+  color: var(--primary-dashboard-color);
+}
+
+.arrow {
+  left: 100%;
+  display: none;
+  box-shadow: 0 0 10px 0px #aeaeae;
+}
+
+.active,
+.active_dark {
+  /* background-image: linear-gradient(to right, #f0f4f6, #fdfdfd); */
+  border-left: 5px solid var(--primary-dashboard-color);
+}
+
+.activeAR,
+.activeAR_dark {
+  /* background-image: linear-gradient(to right, #fdfdfd, #f0f4f6); */
+  border-right: 5px solid var(--primary-dashboard-color);
+}
+
+.active a,
+.activeAR a {
+  font-weight: bold;
+  color: var(--primary-dashboard-color);
+}
+
+.active_dark a,
+.activeAR_dark a {
+  font-weight: bold;
+  color: white;
+}
+
+.arrow_animation {
+  display: none;
+}
+
+.offcanvasBody {
+  overflow: hidden;
+}
+
+@media (max-width: 767.98px) {
+  .openMenu {
+    width: 70% !important;
+  }
+
+  .closeMenu {
+    width: 0% !important;
+  }
+
+  .arrow {
+    display: block;
+  }
+
+  .dn {
+    display: none;
+  }
+
+  .arrow_animation {
+    display: block;
+    left: 59px;
+    top: 51%;
+  }
+}
+
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+  .openMenu {
+    width: 45% !important;
+  }
+
+  .closeMenu {
+    width: 0% !important;
+  }
+
+  .arrow {
+    left: 100%;
+    display: block;
+  }
+
+  .dn {
+    display: none;
+  }
+
+  .navbarBrandDashboard {
+    position: static !important;
+  }
+}
+
+@media (min-width: 991.98px) and (max-width: 1399.98px) {
+}

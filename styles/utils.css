@@ -1,0 +1,9 @@
+.safqa-flip-v {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+@media (max-width: 576px) {
+  .d-sm-none-o {
+    display: none;
+  }
+}

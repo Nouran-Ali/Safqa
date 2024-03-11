@@ -1,0 +1,56 @@
+.custom-ant-collapse {
+  .ant-collapse-header,
+  .ant-collapse-item {
+    padding: 0px 0px !important;
+  }
+
+  .ant-collapse-header-text {
+    padding-right: 75px !important;
+  }
+
+  .ant-collapse-expand-icon {
+    display: none !important;
+  }
+
+  .ant-collapse-header[aria-expanded='true']::after {
+    content: url('/docs/v1/up-arrow2.svg');
+    margin: auto;
+    position: absolute;
+    top: -3px;
+    right: 20%;
+  }
+
+  .ant-collapse-header[aria-expanded='false']::after {
+    content: url('/docs/v1/down-arrow2.svg');
+    margin: auto;
+    position: absolute;
+    top: -3px;
+    right: 20%;
+  }
+}
+
+.docsAR {
+  .ant-collapse-header[aria-expanded='true']::after {
+    content: url('/docs/v1/up-arrow2.svg');
+    margin: auto;
+    position: absolute;
+    top: -3px;
+    left: 20%;
+  }
+
+  .ant-collapse-header[aria-expanded='false']::after {
+    content: url('/docs/v1/down-arrow2.svg');
+    margin: auto;
+    position: absolute;
+    top: -3px;
+    left: 20%;
+  }
+}
+
+.ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+  background-color: white !important;
+}
+
+.ant-select-selector {
+  border: 1px solid #ddd !important;
+}

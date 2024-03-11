@@ -1,0 +1,278 @@
+2023:
+    
+
+bUGS:
+
+    ☐ data in profile business 
+    ☐ add image instead of loaded in profile business 
+    ☐ add roles in create admin
+    ☐ invoice expiry after now (check)
+
+    
+
+    ✔ Convert safqapayment to safqapay @done(23-04-30 20:53)
+    ✔ خدماتنا online stores @done(23-04-30 20:57)
+    ✔ المزيد يحولنا لخدماتنا @done(23-04-30 21:16)
+    ✔ تلقي المدفوعات تحولنا للجوين @done(23-04-30 21:20)
+    ✔ خدمات safqa @done(23-04-30 21:24)
+    ✔ زيادة ايقونة ايميل في contact اذا وجد اكتر من ايميل @done(23-04-30 21:43)
+    ✔ تساوي الصور @done(23-04-30 21:43)
+    ☐ Contactg 
+    ☐ تغيير الخطوط
+    ☐ اضافة صور في صفحة about
+    ☐ توحيد الخط والحجم
+    ☐ جميع الحقوق محفوظة ....
+    ☐ روابط الدفع
+    ☐ عبارات تطبيقنا
+    Dashboard:
+        Join:
+            ✔ Select your country in join boxes spaces @done(23-04-30 20:51)
+            ✔ Delete join otp @done(23-04-30 20:51)
+        ☐ Image schema in validation
+        ☐ Change Error content
+        ☐ Add confirm email and mobile after join for each user
+        ☐ If blocked and not confirm email during 3 days in login show whole error
+        ✔ Sales in profile @done(23-05-01 22:21)
+        ☐ Sales in admin
+        ☐ Invoice section in admin contains recurring intervals and Invoice expiry
+        ☐ Add social media icons as images
+        ☐ Integration
+        ☐ country and currency must be active 
+        ✔ Don’t show add icon in update profile docs in admin @done(23-05-02 21:36)
+        Business Details:
+            ✔ Size up fields in edit profile bank details @done(23-05-02 02:45)
+            ✔ Set data in edit profile @done(23-05-02 03:55)
+            ✔ Set website URL and promo code as optional. @done(23-05-02 03:55)
+            ✔ Fix bugs with null fields @done(23-05-02 03:55)
+            ✔ Get country icon in phone code fields @done(23-05-02 02:56)
+            ✔ Add change currency instead of default language @done(23-05-02 03:55)
+        Invoice:
+            ✔ Invoice items (create new item) => + @done(23-05-02 17:02)
+            ✔ Get default terms and conditions in invoice when enable it @done(23-05-02 17:02)
+            ✔ Invoice details in gmail when create new invoice is redirect to api/……… not to safqapay.com/…… @done(23-05-02 17:02)
+            ✔ Capitalized text invoice show Send invoice option @done(23-05-02 17:05)
+            ✔ Discount value and rate hints @done(23-05-02 18:40)
+            ✔ Max amount and min amount and validate @done(23-05-02 18:40)
+            ✔ Add recurring two fields @done(23-05-02 19:02)
+            ✔ Recuring end and start dates @done(23-05-02 19:02)
+            ☐ Recuring end and start dates fields spaces
+            ☐ Exp date from default profile
+            ☐ show Discount in PayInvoice
+            ☐ Pay invoice changeable price input field
+            ☐ Payment link is_active
+            ☐ Payment link currency
+            ☐ Quick invoice
+            ☐ if is open amount => disable exp date
+
+        Refund:
+            ☐ الكلام بالعربي ضايع
+            ☐ get refund details
+
+        AR:
+            ✔ Safqa logo not exists @done(23-05-02 18:40)
+    
+
+2023: 
+    pages:
+        website:
+            ☐ docs
+            ☐ make docs sidebar responsive 
+            ☐ make docs scrollbar
+            ☐ make docs navigations <   >
+            ✔ our app @done(23-02-21 00:00)
+        admin dashboard:
+            ✔ enhance api calls @done(23-02-21 00:00)
+            ✔ check for inputs and bootstrap @done(23-02-21 00:00)
+            ✔ override the link href in docs sidebar menu @done(23-02-21 00:00)
+            ☐ Update Product Link : products is required
+            ☐ is_approval : 
+            ☐ send product link
+            ☐ product image is required
+            ☐ edit schema
+            ☐ delete globalData with slice
+            ☐ show prodile admin 
+
+            
+
+New Modifications: 
+    ☐ create refund
+    ☐ create deposits
+    ☐ create /forgetPassword/sms
+    ☐ get the invoice data correctly
+
+
+
+invoice:
+    ✔ is open amount @done(22-12-22 20:17)
+    ✔ min_invoice and max_invoice fields @done(22-12-22 20:17)
+update invoice:
+    ☐ customer_mobile must be a `string` type, but the final value was: `null`
+
+Forget Password:
+    ✔ create /forgetPassword/email @done(22-12-13 01:20)
+
+Reset Password:
+    ✔ check validation /resetPassword/token for token expoiration after reset done @done(22-12-22 20:18)
+
+manageUsers:
+    ✔ check create manageUsers @done(22-12-16 06:06)
+
+admin Dashboard:
+    ☐ Select your country in join boxes spaces
+    ☐ Image schema in validation 
+    ☐ Change Error content 
+    ☐ Add confirm email and mobile after join for each user
+    ☐ : Delete join otp
+    ☐ If blocked and not confirm email during 3 days in login show whole error
+    ☐ Sales in admin
+    ☐ Sales in admin
+    ☐ Set data in edit profile
+    ☐ Size up fields in edit profile bank details
+    ☐ Don’t show add icon in update profile docs in admin
+    ☐ الغاء default language in update profile
+    ☐ Invoice section in admin contains recurring intervals and Invoice expiry
+    ☐ Add social media icons as images
+    ☐ Integration
+    ☐ Get default terms and conditions in invoice when enable it
+    ☐ صور الدول في رقم الموبايل
+    Business Details:
+
+    AR:
+        ☐ Safqa logo not exists
+    ✔ check country_active @done(22-12-22 20:21)
+
+permissions:
+    ☐ search how to get rtk state from ssr
+    ☐ check in ssr for the role in all routes
+    ☐ check nested routes for the role
+
+refund:
+    ✔ get all refunds page @done(22-12-22 20:22)
+
+invoices:
+    ✔ get one invoice according to its type(normal/quick) @done(22-12-22 20:22)
+
+dark mode:
+    ✔ multi-factor authentication @done(22-12-22 20:22)
+    ✔ notification message @done(22-12-17 16:14)
+    ✔ delete alert @done(22-12-17 16:14)
+    user:
+        ✔ install next-themes @done(22-12-15 18:38)
+        ✔ setup ThemeProvider @done(22-12-15 18:38)
+        ✔ navbar @done(22-12-16 04:21)
+        ✔ side navbar @done(22-12-16 04:21)
+        ✔ dashboard @done(22-12-16 06:06)
+        ✔ custom safqa table in dark mode @done(22-12-16 20:53)
+        ☐ dark background 
+        ✔ safqa table dark background blur @done(22-12-22 20:22)
+        ✔ custom safqa table inputs in dark mode @done(22-12-22 20:22)
+        ✔ invoices @done(22-12-16 20:52)
+        ✔ products @done(22-12-17 02:31)
+        ✔ store @done(22-12-18 22:05)
+        ✔ search table @done(22-12-17 20:10)
+        ✔ customers @done(22-12-17 20:10)
+        ✔ commissions @done(22-12-22 20:22)
+        ✔ account statement @done(22-12-18 22:05)
+        ✔ refund @done(22-12-22 20:22)
+        ✔ deposits @done(22-12-17 20:10)
+        ✔ contact @done(22-12-17 20:11)
+        ✔ setting @done(22-12-17 20:11)
+    admin:
+        addresses:
+            ✔ country @done(22-12-17 17:09)
+            ✔ city @done(22-12-18 22:05)
+            ✔ area @done(22-12-18 22:05)
+            ✔ address type @done(22-12-18 22:05)
+        ✔ invoice recurring interval @done(22-12-18 22:05)
+        ✔ social media @done(22-12-18 22:05)
+
+admin:
+    languages:
+        ✔ add languages in side menu links @done(22-12-24 05:39)
+        ✔ create languages folder @done(22-12-24 05:39)
+        schema:
+            ✔ create yup validation schema names createLanguageSchema contains (name:string, short_name:string, slug:string) requireds @done(22-12-24 04:13)
+    banks:
+        ✔ add banks in side menu links @done(22-12-24 05:39)
+        ✔ create banks folder @done(22-12-24 05:39)
+        schema:
+            ✔ create yup validation schema names createBankSchema contains (name:string, is_active:string, country_id:string) requireds @done(22-12-24 04:18)
+    businessCategories:
+        ✔ add businessCategories in side menu links @done(22-12-24 05:39)
+        ✔ create businessCategories folder @done(22-12-24 05:39)
+        schema:
+            ✔ create two yup validation schema names createBusinessCategorySchema, createBusinessCategorySchemaAr contains (name_en:string, name_ar:string) requireds and change error messages according to schema's name @done(22-12-24 04:23)
+    businessTypes:
+        ✔ add businessTypes in side menu links @done(22-12-24 12:37)
+        ✔ create businessTypes folder @done(22-12-24 14:28)
+        ✔ create businessTypes slice @done(22-12-24 12:54)
+        schema:
+            ✔ create two yup validation schema names createBusinessTypeSchema, createBusinessTypeSchemaAr contains (name_en:string, name_ar:string, business_logo:image) requireds and change error messages according to schema's name @done(22-12-24 12:16)
+    about:
+        ✔ add about in side menu links @done(22-12-24 12:38)
+        ✔ create about folder @done(22-12-24 14:28)
+        ✔ create about slice @done(22-12-24 12:57)
+        schema:
+            ✔ create two yup validation schema names createAboutSchema, createAboutSchemaAr contains (about:string) and change error messages according to schema's name @done(22-12-24 12:19)
+    contactphones:
+        ✔ add contactphones in side menu links @done(22-12-24 12:45)
+        ☐ create contactphones folder
+        ✔ create contactphones slice @done(22-12-24 13:01)
+        schema:
+            ✔ create two yup validation schema names createContactphonesSchema, createContactphonesSchemaAr contains (number:string, type:string) and change error messages according to schema's name @done(22-12-24 12:22)
+    paymentMethod:
+        ✔ add paymentMethod in side menu links @done(22-12-24 12:45)
+        ✔ create paymentMethod folder @done(22-12-24 14:28)
+        ✔ create paymentMethod slice @done(22-12-24 13:04)
+        schema:
+            ✔ create two yup validation schema names createPaymentMethodSchema, createPaymentMethodSchemaAr contains (name_en:string, name_ar:string, is_active:string, commission_bank:number, commission_safqa:number) and change error messages according to schema's name @done(22-12-24 12:26)
+    complete:
+        message:
+            ✔ get all @done(22-12-27 11:23)
+            ☐ delete 
+            ☐ show
+        contact:
+            ✔ show @done(22-12-27 11:24)
+            ✔ update @done(22-12-27 11:24)
+        contactphones:
+            ☐ create contactphones folder
+        supportType:
+            ✔ create @done(22-12-27 11:24)
+            ✔ get all @done(22-12-27 11:24)
+            ✔ delete @done(22-12-27 11:24)
+            ✔ show @done(22-12-27 11:24)
+        sendInvoiceOptions:
+            ☐ get all
+            ☐ delete 
+            ☐ show
+
+edits required:
+    join:
+        ☐ bank_id instead of bank name(backend)
+    user:
+        edit profile:
+            ✔ business details @done(22-12-27 20:51)
+    admin:
+        bank:
+            ✔ update bank @done(22-12-27 20:50)
+        business category:
+            ☐ create
+            ☐ update
+        business type:
+            ✔ update @done(22-12-27 20:48)
+            ✔ update business type image doesn't accept null @done(22-12-27 20:49)
+        payment method:
+            ✔ create @done(22-12-27 20:48)
+            ✔ update @done(22-12-27 20:48)
+        country:
+            ✔ update country_active @done(22-12-27 20:51)
+            ☐ redirect error
+            ☐ get one 
+
+
+
+
+new:
+    ☐ setValues on update customer 
+    ☐ show customer
+

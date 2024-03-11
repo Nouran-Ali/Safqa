@@ -1,0 +1,144 @@
+.magicBtn {
+  background-color: #00a7b3;
+  color: white !important;
+  padding: 10px 100px;
+}
+
+.magicBtnBlue {
+  background-color: #2f6782;
+  color: white !important;
+  padding: 7px 50px;
+}
+
+.MagicBtnIcon {
+  background-color: #2f6782 !important;
+  color: white !important;
+}
+
+.bgBlue {
+  background-color: #2f6782 !important;
+  color: white !important;
+}
+
+.bgLactic {
+  background-color: #00a7b3 !important;
+  color: white !important;
+}
+
+.see a {
+  background-color: #66b4d238 !important;
+  color: #66b4d2 !important;
+  padding: 4px 6px;
+  align-content: center;
+}
+
+.showImg {
+  background-color: #66b4d238 !important;
+  color: #66b4d2 !important;
+  padding: 2px 6px;
+  border: 0px;
+  border-radius: 50%;
+  align-content: center;
+}
+
+.refund a {
+  background-color: #66b4d238 !important;
+  color: #66b4d2 !important;
+  padding: 4px 6px;
+  align-content: center;
+}
+
+.download a {
+  background-color: #58d2412e !important;
+  color: #58d241 !important;
+  padding: 4px 6px;
+  align-content: center;
+}
+
+.see a {
+  background-color: #66b4d238 !important;
+  color: #66b4d2 !important;
+  padding: 4px 6px;
+  align-content: center;
+}
+
+.delete a {
+  background-color: #e47e7b33 !important;
+  color: #e47e7b !important;
+  padding: 4px 6px;
+  align-content: center;
+}
+
+.block a {
+  background-color: #e47e7b33 !important;
+  color: #e47e7b !important;
+  padding: 6px 6px;
+  align-content: center;
+}
+
+.edit a, .edit button {
+  background-color: #58d2412e !important;
+  color: #58d241 !important;
+  padding: 4px 6px;
+  align-content: center;
+}
+
+
+
+
+.btnDelete {
+  background-color: #e47e7b !important;
+  color: white !important;
+}
+
+.btnCancel {
+  border: 1px solid #a8a8a8 !important;
+  color: #a8a8a8 !important;
+  background-color: white !important;
+}
+
+
+.btnSearch,
+.btnSearch:active,
+.btnReset,
+.btnReset:active {
+  background-color: #f9f9f9;
+  color: black;
+  box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16) !important;
+  margin-top: 31px;
+}
+
+.btnSearch_dark,
+.btnSearch_dark:active,
+.btnReset_dark,
+.btnReset_dark:active {
+  background-color: #2f6782 !important;
+  color: white;
+  margin-top: 31px;
+}
+
+.BtnTables {
+  background-color: #f9f9f9;
+  color: #2f6782;
+}
+
+.SaveBtn {
+  background-image: linear-gradient(to right, #66b4d2, #335a69);
+  color: white !important;
+  padding: 10px 100px;
+}
+
+.btnsNav {
+  background-color: #f5f4f5;
+  color: #747474 !important;
+}
+
+.circleShape {
+  background-color: #e47e7b;
+}
+
+@media (max-width: 768px) {
+  .magicBtn {
+    padding: 10px 84px;
+  }
+}
